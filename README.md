@@ -20,7 +20,7 @@ python czi_codex_tile_dir.py "path/to/submission/directory"
 
 #### Testing a small sub-set of the data
 
-This process by itself is long-running and will need >1 TB for conversion of the data. Using the '--n_tile_tiles' 
+This process by itself is long-running and will need >1 TB for conversion of the data. Using the '--n_test_tiles' 
 argument will randomly convert a small number of tiles for each cycle in a codex run to quickly determine if
 it is working.
 
