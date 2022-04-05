@@ -31,7 +31,7 @@ python czi_codex_tile_dir.py "path/to/submission/directory" --n_test_tiles 10
 
 #### Changing the number of multiprocessing workers
 
-In some cases, using many workers for multiprocessing may actually be slower. This can be changed with the `--max_workers` argument.
+In some cases, using many workers for multiprocessing may actually be slower as the process is likely I/O limited. This can be changed with the `--max_workers` argument.
 By default this will use `multiprocessing` to determine the maximum number available, but if `--max_workers 0` is used,
 the conversion will not use multiprocessing.
 
